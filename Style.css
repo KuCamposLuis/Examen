@@ -1,0 +1,37 @@
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px; 
+    border: 2px solid #ccc; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    border-radius: 30px;
+    text-align: center;
+}
+.tabla-container{
+    display: flex;
+}
+
+table {
+    border-collapse: collapse;
+    width: 40%;
+    margin: 20px auto;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 2px;
+    text-align: center;
+    font-size: 14px; /* Reduce el tamaño de fuente */
+}
+th {
+    background-color: #f2f2f2;
+    border-top: 2px solid #ddd;
+}
+button {
+    display: block;
+    margin: 20px auto;
+}
+table#tabla-AB {
+    border-collapse: collapse;
+    width: 40%; /* Ancho de la tabla derecha */
+    margin: 20px auto;
+}
